@@ -84,3 +84,18 @@ print(Employee2.no_of_leaves)
 print(raju.no_of_leaves)
 
 print(karan.name)
+
+
+#tut58 static
+
+class stud:
+    
+    @staticmethod
+    def printgood(string):
+        print("This is good "+string)
+
+
+karan = stud()
+karan.printgood("blu")
+
+
